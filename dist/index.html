@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshop</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="index.js" defer></script>
+</head>
+<body> 
+    <header>
+        <div class="header">
+            <h1 class="header__logo">Bookshop</h1> 
+            <div class="adaptive-container toggle">
+                <nav class="nav">
+                    <a href="index.html" class="nav__nav-item active">books</a>
+                    <a href="#" class="nav__nav-item">audiobooks</a>
+                    <a href="#" class="nav__nav-item">stationery & gifts</a>
+                    <a href="#" class="nav__nav-item">blog</a>
+                </nav>
+                <div class="btn-group">
+                    <button class="btn-group__btn"><img src="assets/user.svg" alt="Иконка пользователя"></button>
+                    <button class="btn-group__btn"><img src="assets/search.svg" alt="Иконка поиска"></button>
+                    <button class="btn-group__btn"><img src="assets/shop bag.svg" alt="Иконка корзины"> <div class="count d-none"></div></button>
+                </div>
+            </div>
+            <div class="header__adaptive-link"><img src="assets/icons8-меню.svg" alt="Иконка меню"></div>
+            
+        </div>
+        
+    </header>
+    <main>
+        <div class="container">
+            <div class="slider">
+                <div class="slider-container">
+                    <div class="image-container">
+                        <img src=" " alt="Баннер" class="image-container__img">
+                    </div>
+                    <div class="btn-container">
+                        <div class="btn-container__btn"></div>
+                        <div class="btn-container__btn"></div>
+                        <div class="btn-container__btn"></div>
+                    </div>
+                    <div class="links-container">
+                        <a href="#" class="link-to-page-1"><div>Change old book on new</div><img src="assets/next.svg" alt=""></a>
+                        <a href="#" class="link-to-page-2"><div>top 100 books 2022</div><img src="assets/next.svg" alt=""></a>        
+                    </div>
+                 </div>
+            </div> 
+            <div class="books-container">
+                <div>
+                    <div class="category-container toggle">
+                        <ul class="">
+                            <li class="category-container__category active">Architecture</li>
+                            <li class="category-container__category">Art & Fashion</li>
+                            <li class="category-container__category">Biography</li>
+                            <li class="category-container__category">Business</li>
+                            <li class="category-container__category">Crafts & Hobbies</li>
+                            <li class="category-container__category">Drama</li>
+                            <li class="category-container__category">Fiction</li>
+                            <li class="category-container__category">Food & Drink</li>
+                            <li class="category-container__category">Health & Wellbeing</li>
+                            <li class="category-container__category">History & Politics</li>
+                            <li class="category-container__category">Humor</li>
+                            <li class="category-container__category">Poetry</li>
+                            <li class="category-container__category">Psychology</li>
+                            <li class="category-container__category">Science</li>
+                            <li class="category-container__category">Technology</li>
+                            <li class="category-container__category">Travel & Maps</li> 
+                        </ul>
+                    </div> 
+                    <div class="category-container__adaptive-button ">
+                        <img width="40" height="40" src="https://img.icons8.com/ios/50/right--v1.png" alt="right--v1"/>
+                    </div>
+                </div>
+                
+                <div class="card-container"> 
+                </div> 
+            </div>
+            <button class="container__button-load">Load more</button> 
+        </div>    
+    </main>
+</body>
+</html>
